@@ -8,7 +8,7 @@ const mongoose =require('mongoose');
 const articleRouter = require('./routes/articles');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 mongoose.connect('mongodb://localhost/blog', {
     useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true
